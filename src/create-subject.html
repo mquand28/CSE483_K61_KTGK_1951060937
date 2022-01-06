@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Trang tạo môn học</title>
+</head>
+<body>
+<h1>Trang tạo môn học</h1>
+<form action="process_register.php" method="POST">
+    <table cellpadding="0" cellspacing="0" border="1">
+        <tr>
+            <td>
+                Tên môn học :
+            </td>
+            <td>
+                <input type="text" name="txtName" size="50" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Số tín chỉ :
+            </td>
+            <td>
+                <input type="number" name="txtSoTinChi" size="50" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Số tiết bài tập :
+            </td>
+            <td>
+                <input type="number" name="txtSoTietBT" size="50" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Số tiết lý thuyết :
+            </td>
+            <td>
+                <input type="number" name="txtSoTietLT" size="50" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Số tiết thực hành thí nghiệm :
+            </td>
+            <td>
+                <input type="number" name="txtSoTietTH" size="50" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Số giờ tự học :
+            </td>
+            <td>
+                <input type="number" name="txtSoGioTuHoc" size="50" />
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Tạo" />
+    <input type="reset" value="Nhập lại" />
+</form>
+</body>
+</html>
